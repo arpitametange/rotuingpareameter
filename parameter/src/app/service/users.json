@@ -1,0 +1,27 @@
+{
+  "users": [
+    {}
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "imgUrl": "https://apipics.s3.amazonaws.com/cakes_api/1.jpg",
+      "title": "Raspberry and custard muffins"
+    },
+    {
+      "id": "2",
+      "imgUrl": "https://apipics.s3.amazonaws.com/cakes_api/2.jpg",
+      "title": "Lemon and blackberry stripe cake"
+    },
+    {
+      "id": "3",
+      "imgUrl": "https://apipics.s3.amazonaws.com/cakes_api/3.jpg",
+      "title": "Paul Hollywood’s chocolate fudge cake"
+    },
+    {
+      "id": "4",
+      "imgUrl": "https://apipics.s3.amazonaws.com/cakes_api/4.jpg",
+      "title": "Lemon and strawberry meringue cake"
+    }
+  ]
+}

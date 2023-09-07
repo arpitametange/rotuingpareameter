@@ -1,0 +1,24 @@
+<p>postlist works!</p>
+<!-- <p *ngFor="let t of array">{{t.title}}</p>  -->
+ <!-- <p>{{title}}</p> -->
+
+ <!-- {{title}} -->
+
+ <table class="table table-border table-striped  table-dark  table-hover">
+    <thead><tr>
+        <th scope="row">userId</th>
+        <th scope="row">Id</th>
+        <th scope="row">title</th>
+        <th scope="row">body</th>
+
+    </tr></thead>
+    <tbody>
+        <tr *ngFor="let r of array">
+            <td>{{r.userId}}</td>
+            <td> <a [routerLink]="['/postdetails', r.id]">{{r.id}}</a> </td>
+            <td>{{r.title}}</td>
+            <td>{{r.body}}</td>
+
+        </tr>
+    </tbody>
+ </table>

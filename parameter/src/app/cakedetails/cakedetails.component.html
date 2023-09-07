@@ -1,0 +1,21 @@
+<p>cakedetails works!</p>
+<div>
+<div class="card container" style="width: 60rem;" >
+    <img src="{{cakeinfo.image}}" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h6  class="cake-title">{{cakeinfo.title}}</h6>
+        <p class="card-text">{{cakeinfo.description}}</p>
+        <P>{{cakeinfo.id}}</P>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Ingredients</li>
+
+      <li class="list-group-item">{{cakeinfo.ingredients}}</li>
+    </ul>
+    <div class="card-body">
+        <div class="py-5">
+            <button class="btn btn-outline-success add-to-cart-btn" (click)="addToCart(cakeinfo.id,cakeinfo.image,cakeinfo.title)">Add to Cart</button>
+          </div>      <a href="#" class="card-link">GO TO CARD</a>
+    </div>
+  </div>
+</div>

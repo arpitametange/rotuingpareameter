@@ -1,0 +1,8 @@
+<p>cart works!</p>
+<div class="card" style="width: 18rem;" *ngFor="let t of cakeinfo">
+    <img src="{{t.imgUrl}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">{{t.title}}</p>
+    </div>
+    <button (click)="delete(t.id)">remove</button>
+  </div>
