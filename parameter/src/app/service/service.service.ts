@@ -9,7 +9,7 @@ export class ServiceService {
   constructor(public http:HttpClient){
 
   }
-  //add data of cart in  json 
+  //add data of cart in json 
 carturl=' http://localhost:3000/cart/'
 
 
